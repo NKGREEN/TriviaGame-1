@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Disney Princess Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
+    <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Almendra" rel="stylesheet">
+</head>
+<body>
+    <div class = "title">
+   
+        Disney Princess <br> 
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&emsp;Trivia
+   
+    </div>
+
+
+    <div class="container">
+            <div class = "princess">
+                    <img id= "img-fluid" src="./assets/images/princess.png" alt="Princess-logo" style="width: 65%; height: 10%;">
+                </div>   
+         
+            <!-- Question page -->
+        
+         <div class = "game">
+        <button class = 'btn btn-primary' id = 'startBtn'>Start</button>
+        <div id=timeLeft></div>
+        <div id=currentQuestion></div>
+        <div class="question"></div>
+        <div class="answerList"></div>
+        <!-- Answer Page -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <div id=gif></div>
+        <!-- Scoreboard -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <div id="startOverBtn"></div>
+    
+    </div>
+    </div>
+   
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="./assets/javascript/trivia.js"></script>
+
+
+</body>
+</html>

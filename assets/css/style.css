@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url('../images/fairytale.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+
+}
+
+   
+
+
+.btn-primary {
+    
+    
+    font-family: 'UnifrakturMaguntia', cursive;
+    background-color: lavenderblush;
+    color: orchid;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    border:  solid;
+    border-color: rgb(145, 133, 199);;
+
+
+  
+}
+
+.btn-primary:hover {
+    background-color:rgb(145, 133, 199);
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px cornflowerblue , 0 0 70px cornflowerblue, 0 0 80px cornflowerblue , 0 0 100px cornflowerblue ;
+
+}
+
+
+.princess {
+    position: absolute;
+    width: 80%;
+    bottom: -60px; 
+    text-align: left;
+    height: auto;
+    left: 30px;
+
+   
+}
+
+
+.game {
+    font-family: 'Almendra', serif;
+    top: 200px;
+    position: absolute;
+    right: 80px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(207, 37, 199);
+}
+
+
+
+.title {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    text-align: left;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size:  100px;
+    color: orchid;    
+    text-decoration: normal;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px cornflowerblue , 0 0 70px cornflowerblue, 0 0 80px cornflowerblue , 0 0 100px cornflowerblue ;
+      
+    }
+
+ .title:hover {
+        text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    }
+
+
+
+h2, #message, #finalMessage{
+	font-family: 'Almendra', serif;
+    font-size: 35px;
+    color: rgb(207, 37, 199);
+    
+
+}
+
+.thisChoice:hover{
+    background-color: lavenderblush;
+    border: solid;
+    border-color: orchid;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+
+}
+
+
+.gifImg{
+	margin: 30px;
+	max-width: 300px;
+	
+}
+
